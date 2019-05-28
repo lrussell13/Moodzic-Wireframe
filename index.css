@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
+
+.results {
+    border: solid 1px black;
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: grey;
+}
+
+.music-results {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 75%;
+    text-align: center;
+    height: 150px;
+    background: white;
+}
+
+.weather-results {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    background: white;
+}
+
+.recommendations {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 75%;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+}
+
+.recommendations li {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 66%;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    height: 125px;
+    width: 66%;
+    text-align: center;
+    list-style-type: none;
+    background: lightgray;
+}
+
+.hidden {
+    display: none;
+}
